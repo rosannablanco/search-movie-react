@@ -4,12 +4,14 @@ import SearchForm from '../components/SearchForm';
 import MovieList from '../components/MovieList';
 class Home extends Component {
   state = {movieResults: [], userSearch: false};
+
   _handleResults = (results) => {
     this.setState({
       movieResults: results,
       userSearch: true,
     });
   };
+
   _renderResults = () => {
     const {movieResults} = this.state;
     return this.state.movieResults === undefined ? <p>No Found results</p> : <MovieList movies={movieResults} />;

@@ -5,7 +5,7 @@ import Movie from './Movie';
 
 class MovieList extends Component {
   static propTypes = {
-    movies: PropTypes.arrayOf(),
+    movies: PropTypes.array,
   };
   render() {
     const {movies} = this.props;

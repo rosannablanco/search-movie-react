@@ -13,7 +13,7 @@ class SearchForm extends Component {
     ev.preventDefault();
     const API_KEY = '88fc2dab';
     const {inputMovie} = this.state;
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&s=${inputMovie}`)
       .then((result) => result.json())
       .then((data) => {
         const {Search} = data;
@@ -22,6 +22,7 @@ class SearchForm extends Component {
   };
   render() {
     const {inputMovie} = this.state;
+
     return (
       <form onSubmit={this._handleOnSumit}>
         <div className="field has-addons SearchForm-wrapper">

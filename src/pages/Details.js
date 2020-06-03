@@ -15,7 +15,7 @@ class Details extends Component {
   state = {movie: {}};
   _fetchMovie = ({id}) => {
     const API_KEY = '88fc2dab';
-    fetch(`http://www.omdbapi.com/?apikey=${API_KEY}&i=${id}`)
+    fetch(`https://www.omdbapi.com/?apikey=${API_KEY}&i=${id}`)
       .then((result) => result.json())
       .then((movie) => {
         this.setState({movie});
