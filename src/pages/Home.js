@@ -14,7 +14,7 @@ class Home extends Component {
 
   _renderResults = () => {
     const {movieResults} = this.state;
-    return this.state.movieResults === undefined ? <p>No Found results</p> : <MovieList movies={movieResults} />;
+    return this.state.movieResults.length === 0 ? <p>Results not found</p> : <MovieList movies={movieResults} />;
   };
 
   render() {
@@ -25,7 +25,7 @@ class Home extends Component {
         <div className="SearchForm-wrapper">
           <SearchForm onResults={this._handleResults} />
         </div>
-        {userSearch ? this._renderResults() : <p>Use the form for search movie</p>}
+        {userSearch ? this._renderResults() : <p>Use the form to search movie</p>}
       </header>
     );
   }
