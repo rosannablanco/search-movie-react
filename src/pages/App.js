@@ -2,11 +2,11 @@ import React from 'react';
 import {Switch, Route} from 'react-router-dom';
 
 //pages
-import Home from './pages/Home';
-import Details from './pages/Details';
-import NoFound from './pages/NoFound';
+import Home from './Home';
+import Details from './Details';
+import NoFound from './NoFound';
 
-import './App.css';
+import '../stylesheets/App.css';
 import 'bulma/css/bulma.css';
 
 function App() {
