@@ -1,6 +1,6 @@
 {
   "homepage": "./",
-  "name": "my-project",
+  "name": "search-movie-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
