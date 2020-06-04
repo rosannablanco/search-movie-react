@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.48f1c2db.chunk.css",
-    "main.js": "./static/js/main.327d4449.chunk.js",
-    "main.js.map": "./static/js/main.327d4449.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.ab8bd17a.js",
-    "runtime-main.js.map": "./static/js/runtime-main.ab8bd17a.js.map",
-    "static/css/2.c3343ac3.chunk.css": "./static/css/2.c3343ac3.chunk.css",
-    "static/js/2.bc8a5fc8.chunk.js": "./static/js/2.bc8a5fc8.chunk.js",
-    "static/js/2.bc8a5fc8.chunk.js.map": "./static/js/2.bc8a5fc8.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.a30c74d8b27cb88d74477d2b3a0be3fc.js": "./precache-manifest.a30c74d8b27cb88d74477d2b3a0be3fc.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/2.c3343ac3.chunk.css.map": "./static/css/2.c3343ac3.chunk.css.map",
-    "static/css/main.48f1c2db.chunk.css.map": "./static/css/main.48f1c2db.chunk.css.map",
-    "static/js/2.bc8a5fc8.chunk.js.LICENSE.txt": "./static/js/2.bc8a5fc8.chunk.js.LICENSE.txt"
+    "main.css": "/rosannablanco/search-movie-react/static/css/main.48f1c2db.chunk.css",
+    "main.js": "/rosannablanco/search-movie-react/static/js/main.bd6ab8b8.chunk.js",
+    "main.js.map": "/rosannablanco/search-movie-react/static/js/main.bd6ab8b8.chunk.js.map",
+    "runtime-main.js": "/rosannablanco/search-movie-react/static/js/runtime-main.1e611eb3.js",
+    "runtime-main.js.map": "/rosannablanco/search-movie-react/static/js/runtime-main.1e611eb3.js.map",
+    "static/css/2.c3343ac3.chunk.css": "/rosannablanco/search-movie-react/static/css/2.c3343ac3.chunk.css",
+    "static/js/2.bc8a5fc8.chunk.js": "/rosannablanco/search-movie-react/static/js/2.bc8a5fc8.chunk.js",
+    "static/js/2.bc8a5fc8.chunk.js.map": "/rosannablanco/search-movie-react/static/js/2.bc8a5fc8.chunk.js.map",
+    "index.html": "/rosannablanco/search-movie-react/index.html",
+    "precache-manifest.7ad457f7c3618deca125eb81a2be35c4.js": "/rosannablanco/search-movie-react/precache-manifest.7ad457f7c3618deca125eb81a2be35c4.js",
+    "service-worker.js": "/rosannablanco/search-movie-react/service-worker.js",
+    "static/css/2.c3343ac3.chunk.css.map": "/rosannablanco/search-movie-react/static/css/2.c3343ac3.chunk.css.map",
+    "static/css/main.48f1c2db.chunk.css.map": "/rosannablanco/search-movie-react/static/css/main.48f1c2db.chunk.css.map",
+    "static/js/2.bc8a5fc8.chunk.js.LICENSE.txt": "/rosannablanco/search-movie-react/static/js/2.bc8a5fc8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ab8bd17a.js",
+    "static/js/runtime-main.1e611eb3.js",
     "static/css/2.c3343ac3.chunk.css",
     "static/js/2.bc8a5fc8.chunk.js",
     "static/css/main.48f1c2db.chunk.css",
-    "static/js/main.327d4449.chunk.js"
+    "static/js/main.bd6ab8b8.chunk.js"
   ]
 }
