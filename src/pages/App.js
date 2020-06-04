@@ -15,7 +15,6 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/detail/:movieId" component={Details} />
-        <Route component={NoFound} />
       </Switch>
     </div>
   );
