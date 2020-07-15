@@ -3,8 +3,12 @@ import Title from '../components/Title';
 import SearchForm from '../components/SearchForm';
 import MovieList from '../components/MovieList';
 class Home extends Component {
-  state = {movieResults: [], userSearch: false};
-
+  state = {movieResults: [], userSearch: false, inputValue: ''};
+  handleInput = (value) => {
+    this.setState({
+      inputValue: value,
+    });
+  };
   _handleResults = (results) => {
     this.setState({
       movieResults: results,
@@ -14,7 +18,7 @@ class Home extends Component {
 
   _renderResults = () => {
     const {movieResults} = this.state;
-    return this.state.movieResults.length === 0 ? <p>Results not found</p> : <MovieList movies={movieResults} />;
+    return movieResults.length === 0 ? <p>Results not found</p> : <MovieList movies={movieResults} />;
   };
 
   render() {
@@ -23,7 +27,7 @@ class Home extends Component {
       <header className="container is-fluid ">
         <Title>Search-movie</Title>
         <div className="SearchForm-wrapper">
-          <SearchForm onResults={this._handleResults} />
+          <SearchForm onResults={this._handleResults} valueMovie={this.handleInput} value={this.state.inputValue} />
         </div>
         {userSearch ? this._renderResults() : <p>Use the form to search movie</p>}
       </header>

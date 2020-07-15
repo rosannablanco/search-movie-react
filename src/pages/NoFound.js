@@ -5,9 +5,9 @@ class NoFound extends Component {
   render() {
     return (
       <div>
+        <ButtonBack />
         <h2 className="title">404</h2>
         <h3 className="subtitle">Page not found</h3>
-        <ButtonBack />
       </div>
     );
   }
